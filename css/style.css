@@ -1,0 +1,225 @@
+body {
+  background-color: #ECECF1;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.2);
+  font-family: "Quicksand", sans-serif; }
+  body a {
+    text-decoration: underline; }
+
+.btn-principal {
+  background: #366EFC;
+  border-radius: 100px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.8em 3em; }
+
+.form-control {
+  height: 40px !important;
+  padding: 10px 20px !important; }
+
+.loginPages {
+  background: #ECECF1;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.login {
+  max-width: 890px;
+  margin: 0 auto;
+  background: white;
+  padding: 0.5em;
+  border-radius: 2em; }
+  .login .sistema {
+    padding: 15em 1em 11em 1em;
+    width: 100%;
+    border-radius: 1.4em;
+    background: #366EFC; }
+    .login .sistema .bienvenido {
+      color: white;
+      font-size: 1em; }
+    .login .sistema .titulo {
+      color: white;
+      font-size: 2em;
+      line-height: 25px;
+      font-weight: bold; }
+      .login .sistema .titulo .tituloSmall {
+        font-size: 0.6em; }
+  .login .ingresos .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 0.2fr 0px 1.6fr 0px 0.2fr;
+    grid-template-rows: 0.2fr 1.6fr 0.2fr;
+    gap: 0px 0px;
+    justify-items: self-start;
+    height: 500px;
+    width: 100%;
+    grid-template-areas: "boxTop" "boxLogin" "boxLogo"; }
+  .login .ingresos .boxTop {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: boxTop;
+    align-self: flex-start;
+    -ms-grid-column-align: left;
+    justify-self: left;
+    height: 2em; }
+    .login .ingresos .boxTop .btnVolver {
+      font-size: 1em; }
+  .login .ingresos .boxLogin {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: boxLogin;
+    align-self: flex-start;
+    -ms-grid-column-align: center;
+    justify-self: center;
+    width: 100%; }
+    .login .ingresos .boxLogin .tituloForm {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #366EFC;
+      max-width: 100%; }
+    .login .ingresos .boxLogin form {
+      margin: 0 auto;
+      max-width: 60%; }
+      .login .ingresos .boxLogin form label {
+        display: inline-block !important;
+        color: rgba(0, 0, 0, 0.6) !important;
+        font-weight: bold;
+        font-size: 0.9em !important;
+        padding: 0.4em 0em 0.6em 0em !important; }
+      .login .ingresos .boxLogin form .form-group {
+        margin-bottom: 1.3em !important; }
+  .login .ingresos .boxLogo {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: boxLogo;
+    align-self: flex-end;
+    -ms-grid-column-align: center;
+    justify-self: center; }
+    .login .ingresos .boxLogo .logotiposBox {
+      width: 100%; }
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 0px 1.5fr;
+  grid-template-columns: 0.5fr 1.5fr;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  height: 100vh;
+  grid-template-areas: "menu dash"; }
+
+.menu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: menu;
+  background: white;
+  max-width: 300px; }
+  .menu .scvLogo {
+    margin: 1em;
+    background: #EFF3FF;
+    border-radius: 40px;
+    padding: 1em;
+    text-align: center; }
+    .menu .scvLogo .scvCircle {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 20px; }
+    .menu .scvLogo .titulo {
+      color: #314067;
+      font-weight: bold;
+      font-size: 1.4em; }
+    .menu .scvLogo .fecha {
+      color: rgba(0, 0, 0, 0.5);
+      text-transform: bold;
+      font-size: 0.9em; }
+  .menu .menuItem {
+    margin-top: 20px; }
+    .menu .menuItem ul {
+      list-style: none;
+      margin: 0px !important;
+      padding: 0px !important; }
+      .menu .menuItem ul li {
+        margin: 0px !important;
+        padding: 0px !important; }
+        .menu .menuItem ul li .itemList {
+          width: 100%;
+          display: block;
+          padding: 1em;
+          text-decoration: none;
+          -webkit-transition: 0.2s all;
+          -o-transition: 0.2s all;
+          transition: 0.2s all;
+          color: rgba(0, 0, 0, 0.6);
+          font-weight: bold;
+          font-size: 1.1em; }
+          .menu .menuItem ul li .itemList:hover {
+            background: #ECECF1; }
+
+.dash {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: dash;
+  background: #ECECF1;
+  padding: 1em; }
+  .dash .menuSuperior {
+    position: absolute;
+    top: 0px;
+    right: 0px; }
+    .dash .menuSuperior ul {
+      display: inline-block;
+      margin: 0px !important;
+      padding: 0px !important; }
+      .dash .menuSuperior ul li {
+        display: inline-block;
+        margin: 0px !important;
+        padding: 1.3em 1.8em !important; }
+        .dash .menuSuperior ul li a {
+          text-decoration: none;
+          font-weight: bold;
+          -webkit-transition: 0.2s all;
+          -o-transition: 0.2s all;
+          transition: 0.2s all;
+          color: rgba(0, 0, 0, 0.6); }
+  .dash .titleDash {
+    margin-top: 5em !important; }
+    .dash .titleDash .title {
+      font-size: 1.6em;
+      color: #314067;
+      font-weight: bold; }
+    .dash .titleDash .subtitle {
+      font-size: 1em;
+      color: rgba(0, 0, 0, 0.5); }
+    .dash .titleDash .breadcrumbs {
+      margin-top: 1.8em;
+      margin-bottom: 2em;
+      font-size: 0.8em;
+      font-weight: bold; }
+      .dash .titleDash .breadcrumbs ul {
+        margin: 0px !important;
+        padding: 0px !important; }
+        .dash .titleDash .breadcrumbs ul li {
+          display: inline-block;
+          margin: 0px !important; }
+          .dash .titleDash .breadcrumbs ul li a {
+            font-weight: bold;
+            -webkit-transition: 0.2s all;
+            -o-transition: 0.2s all;
+            transition: 0.2s all;
+            color: #366EFC; }
+          .dash .titleDash .breadcrumbs ul li .active {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.6); }
+
+.loginPage {
+  margin-top: 8em; }
