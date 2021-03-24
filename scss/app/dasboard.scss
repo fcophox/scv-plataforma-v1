@@ -61,6 +61,10 @@
                     font-weight: bold;
                     font-size: 1.1em;
 
+                    .iconItem {
+                        padding: 0px 13px 2px 13px;
+                    }
+
                     &:hover {
                         background: $color4;
                     }
@@ -97,6 +101,10 @@
                     font-weight: bold;
                     transition: 0.2s all;
                     color: $color7;
+
+                    .iconoMenu {
+                        padding: 0px 20px 0.6em 20px;
+                    }
                 }
             }
         }

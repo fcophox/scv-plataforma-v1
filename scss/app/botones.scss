@@ -5,4 +5,11 @@
     font-size: 1em;
     font-weight: bold;
     padding: 0.8em 3em;
+    text-decoration: none;
+    transition: 0.2s all;
+
+    &:hover {
+        background: $color2;
+        color: white;
+    }
 }
